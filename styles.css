@@ -1,0 +1,115 @@
+body {
+margin: 0px;
+}
+
+.icon-bar {
+  width: 100%;
+  background-color: #00539C;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 10%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #243665;
+}
+.accordion {
+  background-color: #E8E8E8;
+  color: #555;
+  cursor: pointer;
+  padding: 18px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family: helvetica;
+  font-weight: bold;
+  transition: 0.4s;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  font-family: helvetica;
+  font-size: 14px;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  float: left;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+
+h2 {
+font-family: helvetica;
+font-size: 30px;
+margin-left: 200px;
+margin-right: 50px;
+}
+
+p {
+font-family: helvetica;
+font-size: 16px;
+width: 70%;
+margin-left: 200px;
+}
+
+.education-content {
+  font-family: helvetica;
+  font-size: 14px;
+  padding: 6px;
+}
+
+.professional-content{
+  font-family: helvetica;
+  font-size: 14px;
+  padding: 6px;
+  font-weight: bold;
+}
+
+.key-skills-content {
+  column-count: 4;
+  padding: 6px;
+  line-height: 2;
+  font-size: 14px;
+}
