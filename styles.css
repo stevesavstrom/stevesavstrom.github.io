@@ -25,6 +25,7 @@ margin: 0px;
 .active {
   background-color: #243665;
 }
+
 .accordion {
   background-color: #E8E8E8;
   color: #555;
@@ -70,6 +71,7 @@ margin: 0px;
   margin-left: 50px;
   margin-right: 50px;
 }
+
 .avatar {
   vertical-align: middle;
   width: 120px;
